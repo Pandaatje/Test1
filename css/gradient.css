@@ -1,0 +1,35 @@
+main{
+	height: 100vh;
+	display: grid;
+	
+}
+
+.element1{
+	background: linear-gradient(to right, #ab7680, #883d4c);
+}
+
+.element2{
+	background: linear-gradient(to right, #a888a5, #82567e);
+}
+
+.element3{
+	background: linear-gradient(to right, #4b5793, #8089b3);
+}
+
+.element4{
+	background: linear-gradient(to right, #91b8c3, #649bab);
+}
+
+
+@media(min-width: 800px){
+	main{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	
+	}
+}
+
+@media(min-width: 1000px){
+	main{
+		grid-template-columns: 1fr 1fr;
+	}
+}
